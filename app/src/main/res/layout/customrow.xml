@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/layout_custom">
+
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="70dp"
+        android:id="@+id/img_custom"
+        android:src="@drawable/abc_btn_radio_to_on_mtrl_015"
+        android:layout_margin="5dp"
+        android:layout_weight="0.46" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_custom"
+        android:textColor="#ff1d99ff"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+</LinearLayout>
